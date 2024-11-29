@@ -17,7 +17,7 @@ const items = [
     url: "/",
   },
   {
-    title: "Connect wallet",
+    title: "Connect wallet(send sol, Airdrop)",
     url: "/connect-wallet",
   },
   {
