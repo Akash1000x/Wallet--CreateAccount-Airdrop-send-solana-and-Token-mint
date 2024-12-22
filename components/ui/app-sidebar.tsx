@@ -14,7 +14,7 @@ import Link from "next/link";
 const items = [
   {
     title: "Create wallet",
-    url: "/",
+    url: "/create-wallet",
   },
   {
     title: "Connect wallet(send sol, Airdrop)",
@@ -36,7 +36,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar variant="floating">
+    <Sidebar variant="floating" collapsible="icon">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
